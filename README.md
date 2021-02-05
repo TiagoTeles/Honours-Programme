@@ -5,7 +5,6 @@ Repository containing the software used to validate the results obtained during 
 Python 3.7
 
 ## Author
-Markup : 
 * [Tiago Teles](https://www.linkedin.com/in/tiago-moreira-da-fonte-fonseca-teles/)
 
 ## License
