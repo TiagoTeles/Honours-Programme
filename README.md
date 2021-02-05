@@ -1,11 +1,13 @@
 # Honours Programme Research Project
 
 ## About
-Repository containing the software used to validate the results obtained during the research preformed as part of the honours programme for bachelor students of TUDelft.
-Python 3.7
+This repository contains the source code used for the research phase of my honours research project. Titled *Effects of radiation pressure on the orbits of space debris*, this paper aims to study the effects that light has on the orbits of space debris, which are becoming an ever increasing and complex problem to solve.
 
-## Author
+## Authors
 * [Tiago Teles](https://www.linkedin.com/in/tiago-moreira-da-fonte-fonseca-teles/)
+
+## Acknowledgements
+I would like to thank Professor Ron Noomen for his availability to supervise the honours programme research project for which this repository is used for. His selfless behaviour has allowed me to challenge myself accademically with new and interesting problems.
 
 ## License
 The source code in this repository is licensed under the [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html).
