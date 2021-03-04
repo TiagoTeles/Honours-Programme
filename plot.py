@@ -6,11 +6,11 @@ Script used to plot the orbits of space debris.
 
 This script takes in a .csv file and plots the
 orbital properties of space debris as a function
-of time. This scripts is used in conjuction with
+of time. This scripts is used in conjunction with
 __.py, which generates the required .csv files.
 """
 
-# Auhorship
+# Authorship
 __author__ = "Tiago Teles"
 __credits__ = ["Tiago Teles", "Ron Noomen"]
 __license__ = "GPL"
