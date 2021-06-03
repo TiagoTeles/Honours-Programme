@@ -5,10 +5,12 @@
 # Email: T.MoreiraDaFonteFonsecaTeles@student.tudelft.nl
 # ============================================================
 
-# python -m unittest tests.main
-
 # Imports
+import unittest
 from src import main
 
 # Main Program
-main.hello_world()
+class TestMain(unittest.TestCase):
+
+    def test_hello_world(self):
+        main.hello_world()
