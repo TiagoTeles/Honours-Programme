@@ -1,7 +1,7 @@
 # Honours Programme Research Project
 
 ## About
-This repository contains the source code used for the research phase of my honours research project. Titled *Effects of radiation pressure on the orbits of space debris*, this paper aims to study the effects that light has on the orbits of space debris, which are becoming an ever-increasing and complex problem to solve.
+This repository contains the source code used for the research phase of my honours research project. Titled *Effects of solar radiation pressure on the orbits of space debris*, this paper aims to study the effects that light has on the orbits of space debris, which are becoming an ever-increasing and complex problem to solve.
 
 ## Authors
 The following people have contributed to this project:
