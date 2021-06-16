@@ -5,28 +5,28 @@
 # License: GNU GPL 3.0
 # ============================================================
 
-# ---------- Imports ---------- #
-import time
+
+# ========== Imports ========== #
 import numpy as np
-
-from simulation import Simulation
 from orbit import Orbit
+from simulation import Simulation
 
-# ---------- Main Program ---------- #
+
+# ========== Main Program ========== #
 if __name__ == "__main__":
 
-    # Register start time
-    start = time.time()
-
     # Create a simulation
-    simulation = Simulation(dt = 1.0, t_final = 24*3600)
+    simulation = Simulation(dt=1.0, t_final=24*3600)
 
     # Add an object to the simulation
-    simulation.add(Orbit(sma = 6371E3 + 400E3))
+    for i in range(1):
+        simulation.add(Orbit(sma=6371E3+894E3, inc=11*np.pi/20))
 
     # Run simualtion
-    simulation.run()
+    result = simulation.run()
 
     # Plot orbits
-    simulation.animate_2d()
-    simulation.animate_3d()
+    # simulation.animate_2d("XY")
+    # simulation.animate_2d("YZ")
+    # simulation.animate_2d("XZ")
+    # simulation.animate_3d()

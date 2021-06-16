@@ -1,24 +1,34 @@
-"""
-"""
+# ========== Imports ========== #
+from math import sin, cos, sqrt
+from numpy import array
 
-# Imports
-import numpy as np
+# ========== Function Definitions ========== #
+def radius(x):
+    return sqrt(x[0]**2 + x[1]**2 + x[2]**2)
 
-# Function definitionss
+def velocity(x):
+    return sqrt(x[3]**2 + x[4]**2 + x[5]**2)
+
+def norm(x):
+    return sqrt(x[0]**2 + x[1]**2 + x[2]**2)
+
+def density(x):
+    return 1E-12
+
 def rotate_x(a):
-    return np.array([
-        [1.0,       0.0,        0.0],
-        [0.0, np.cos(a), -np.sin(a)],
-        [0.0, np.sin(a),  np.cos(a)]])
+    return array([
+        [1.0,    0.0,     0.0],
+        [0.0, cos(a), -sin(a)],
+        [0.0, sin(a),  cos(a)]])
 
 def rotate_y(a):
-    return np.array([
-        [ np.cos(a), 0.0, np.sin(a)],
-        [       0.0, 1.0,       0.0],
-        [-np.sin(a), 0.0, np.cos(a)]])
+    return array([
+        [ cos(a), 0.0, sin(a)],
+        [    0.0, 1.0,    0.0],
+        [-sin(a), 0.0, cos(a)]])
 
 def rotate_z(a):
-    return np.array([
-        [np.cos(a), -np.sin(a), 0.0],
-        [np.sin(a),  np.cos(a), 0.0],
-        [      0.0,        0.0, 1.0]])
+    return array([
+        [cos(a), -sin(a), 0.0],
+        [sin(a),  cos(a), 0.0],
+        [   0.0,     0.0, 1.0]])
