@@ -5,7 +5,7 @@ This repository contains the source code used for the research phase of my honou
 
 ## Authors
 The following people have contributed to this project:
-* [Tiago Teles](https://www.linkedin.com/in/tiago-moreira-da-fonte-fonseca-teles/)
+* [Tiago Teles](https://www.linkedin.com/in/tiago-fonseca-teles/)
 
 ## Acknowledgements
 I would like to thank Professor Ron Noomen for his availability to supervise the honours programme research project for which this repository is used for.
